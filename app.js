@@ -1,5 +1,6 @@
 const express = require("express");
-const { getWeather } = require("./services/weatherservice");
+const { getWeather } = require("./services/weatherService");
+
 const app = express();
 
 app.get("/weather", async (req, res) => {

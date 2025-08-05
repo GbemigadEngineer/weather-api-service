@@ -2,7 +2,7 @@ const axios = require("axios");
 const redisClient = require("../utils/redisClient");
 
 const API_KEY = process.env.WEATHER_API_KEY;
-console.log("🔑 API KEY:", API_KEY);
+
 
 async function getWeather(city) {
   // 1. Store city in lowercase format
